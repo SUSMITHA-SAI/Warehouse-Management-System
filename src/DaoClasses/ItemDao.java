@@ -17,7 +17,7 @@ public class ItemDao {
 			ps.setInt(4, Stock);
 			return ps.executeUpdate();
 		} catch (Exception e) {
-			System.out.println("Error in customer" + e.getMessage());
+			System.out.println("Error in customerdetails" + e.getMessage());
 		}
 		return 0;
 	}
